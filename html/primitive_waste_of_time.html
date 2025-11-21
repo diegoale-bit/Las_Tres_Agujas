@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Las Tres Agujas</title>
+    </head>
+    <style> 
+        h1{text-align: center;margin-top: 50px;} 
+        body{background-color: rgb(197, 233, 255)} 
+        h1, body {font-family: Helvetica, Times}
+        #change_idiom label:hover img {transform: scale(1.05);} 
+        .boxtroll_2 {display: none;}
+        .show {position:absolute; bottom: 100%; right:0;background-color: white;border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0,0,0,0.2);padding: 10px;z-index: 100;min-width: 120px;display: none;}
+        .show a {display:block;padding:5px;color:#333}
+        #change_idiom {position:fixed ;display:inline-block; right: 20px;bottom: 20px;z-index: 9999;}
+        #idiom_activate:checked ~ .show {display: block;}
+        ul {list-style: none;}
+    </style>
+    <body>
+        <header>
+            <h1>Las Tres Agujas</h1>
+        </header>
+        <a href="../index.html"><img src="../img/Logo 2 (RGB!).png" width="200px"> <!--No pude colocar la imágen en el centro.--></a>
+        <h2> ¿Quiénes somos?</h2>
+        <p> Somos un emprendimiento familiar que tiene cómo objetivo:</p>
+        <ul>
+            <li>Brindar <strong><em>felicidad</em></strong> con nuestros productos.</li>
+            <li>Dar regalos a un <em><strong>bajo precio.</strong></em></li>
+            <li>Hacer productos <em><strong>personalizados.</strong></em></li>
+        </ul>
+        <p>Autor del sitio: <strong>Diego Alejandro Moreno Pérez</strong></p>
+        <img src="../img/Autor.jpg"width="200px">
+
+        <article>
+                <div id="change_idiom" >
+                    <input type="checkbox" id="idiom_activate" class="boxtroll_2">
+                    <label for="idiom_activate" class="button">
+                        <img src="../img/idioms.png" width="50px" height="50px" alt="Change Idiom" class="img-thumbnail">
+                    </label>
+                    
+                    <div class="show">
+                        <a href="../index.html">Principal</a>
+                        <a href="working.html">Page Not Found</a>
+                    </div>
+                </div>
+            </article>
+    <footer>
+        <h4>Contacta a nuestros emprendedores y <strong>haz tu pedido</strong>:</h4><p><strong>Número Telefónico:</strong> <em>333 044 6643</em><br><strong>Instagram:</strong><em> las3.Agujas</em></p>   
+    </footer>
+            
+    </body>
+</html>

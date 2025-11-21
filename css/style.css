@@ -1,0 +1,119 @@
+ /* Etiquetas  */
+
+ h1,h2{text-align: center;margin-top: 50px;}
+
+ a {text-decoration:none;color:white;}
+
+ body{margin:0; padding:0;}
+ 
+ h1, body {font-family: Helvetica, Times}
+
+ th {background-color:rgb(255, 255, 255) ;} 
+ 
+ table,th,td {border: 2px solid rgb(0,0,0)}
+
+ section {overflow: auto;} 
+
+ p, h1, h2, h3, h4, h5, h6, li, strong, td {color:white}
+
+ /* Header */
+ header {height:200px;padding-top: 5px ; padding-bottom: 20px; display: flex; justify-content: center;padding-left:50px;border-bottom:2px solid black}
+
+ header h1 {line-height: 200px;height:100px;margin: 0; padding: 0;}
+
+/*Nav*/
+
+ nav {margin-top: 20px;color:white}
+
+/* Footer */
+
+ footer {padding-bottom: 20px; padding-top: 10px;color: rgb(240, 248, 255); font-size: 20px;border-top:2px solid black;}
+
+/*Section*/
+
+ #section_1 {height: 1010px; width: 100%; padding-left:20px;background-color: #6c757d; border:2px solid black;border-left:none;}
+
+/*Aside*/
+
+ .aside {height: 600px; width: 100%;text-align: center;border:2px solid black; border-right:none;} 
+
+ .aside p {color:black;}
+
+ .aside h3 {color:black;}
+
+ .aside_1 {height: 400px; width: 100%;text-align: center;border:2px solid black; border-right:none;}
+
+ .aside_1 p {color:black;}
+
+ .aside_1 h3 {color:black;}
+
+ .aside_2 {height: 1010px; width: 100%;text-align: center;border:2px solid black; border-right:none;}
+
+ .aside_2 p {color:black;}
+
+ .aside_2 h3 {color:black;}
+
+/*ID*/
+
+ #header_div {height: 100px;width:100px;}
+
+ #easteregg {margin-left:auto;}
+ 
+ #working {font-family: 'Comic Sans MS', 'Comic Sans', cursive; color:rgb(0,0,0)} 
+
+ #navigate {position:fixed ;display:inline-block; right: 20px;bottom: 20px;z-index: 9999;}
+
+ #menu:checked ~ .show {display: block;}
+
+ /*Class*/
+ 
+ .important {color: rgb(240, 248,255)}
+ 
+ .Anakin {display: flex;max-width: 1500px; margin: 20px auto; align-items: flex-start;gap:5px;}
+ 
+ .Anakin_1 {display: block;max-width: 1500px; margin: 20px auto; align-items: flex-start;gap: 10px;}
+
+ .Luke {display:flex;flex-direction:column;gap:10px;width:280px;}
+
+ .products {display:flex;align-items: center; gap:10px; padding: 20px;}
+
+ .products h4, .products p {margin: 5px 0; text-align: left;}
+
+ .image {transition: transform 0.3s ease-in-out;border-radius: 10px;}
+ 
+ .Obiwan {display:flex}
+
+ .logo {padding:5px;}
+
+ .boxtroll_2 {display: none;}
+
+ .show {position:absolute; bottom: 100%; right:0;background-color: white;border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0,0,0,0.2);padding: 10px;z-index: 100;min-width: 120px;display: none;}
+
+ .show a {display:block;padding:5px;color:#333}
+
+ .p {display:flex; gap:10px;}
+
+ .P {padding:5px;padding-right:-10px; margin-right:10px;}
+
+ .s_2 {gap:20px;display:flex; overflow-x: auto; list-style-type: none;font-size:20px;border-radius:10px;border:2px solid black;}
+
+ .center {align-items: center;}
+
+ .over_1 {overflow-y:auto;}
+
+ .padding {padding-top:5px;}
+
+ .ACDC {color:rgb(0,0,0)}
+
+ .round {border-radius: 10px;}
+
+ .round_1 {border-radius:5px;}
+/* Codigos extras */
+
+ #navigate label:hover img {transform: scale(1.05);} 
+ .image:hover {transform: scale(2.05)}
+ a:active {color:rgb(0, 128, 255)}
+
+
+ nav ul {list-style: none; padding:0px;margin:0px; display:flex; justify-content: center;}
+ nav ul li {margin: 0 25px;}
