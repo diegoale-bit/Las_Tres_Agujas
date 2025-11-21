@@ -58,6 +58,8 @@
  #header_div {height: 100px;width:100px;}
 
  #easteregg {margin-left:auto;}
+
+ #easteregg_1 {margin-right: auto;}
  
  #working {font-family: 'Comic Sans MS', 'Comic Sans', cursive; color:rgb(0,0,0)} 
 
@@ -82,6 +84,8 @@
  .image {transition: transform 0.3s ease-in-out;border-radius: 10px;}
  
  .Obiwan {display:flex}
+
+ .Obiwan_Kenobi {display:flex; text-align: center;}
 
  .logo {padding:5px;}
 
@@ -108,6 +112,9 @@
  .round {border-radius: 10px;}
 
  .round_1 {border-radius:5px;}
+
+ .small {font-size:15px; color:white;}
+
 /* Codigos extras */
 
  #navigate label:hover img {transform: scale(1.05);} 
