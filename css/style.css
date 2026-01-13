@@ -4,7 +4,7 @@
 
  a {text-decoration:none;color:white;}
 
- body{margin:0; padding:0;}
+ body{margin:0; padding:0; background-color:#f3ffff;}
  
  h1, body {font-family: Helvetica, Times}
 
@@ -14,28 +14,28 @@
 
  section {overflow: auto;} 
 
- p, h1, h2, h3, h4, h5, h6, li, strong, td {color:white}
 
  /* Header */
- header {height:200px;padding-top: 5px ; padding-bottom: 20px; display: flex; justify-content: center;padding-left:50px;border-bottom:2px solid black}
+
+ header {height:200px;padding-top: 5px ; padding-bottom: 20px; display: flex; justify-content: center;padding-left:50px;border-bottom:2px solid black;background-color:#3b8b8d;color:#ffffff;}
 
  header h1 {line-height: 200px;height:100px;margin: 0; padding: 0;}
 
 /*Nav*/
 
- nav {margin-top: 20px;color:white}
+ nav {margin-top: 20px;color:white;border: 2px solid rgb(0,0,0);border-left: none; border-right:none; background-color: #186667;justify-content: center; align-items: center;}
 
 /* Footer */
 
- footer {padding-bottom: 20px; padding-top: 10px;color: rgb(240, 248, 255); font-size: 20px;border-top:2px solid black;}
+ footer {padding-bottom: 20px; padding-top: 10px;color: rgb(240, 248, 255); font-size: 20px;border-top:2px solid black;background-color:#3b8b8d;}
 
 /*Section*/
 
- #section_1 {height: 1010px; width: 100%; padding-left:20px;background-color: #6c757d; border:2px solid black;border-left:none;}
+ #section {height: 1010px; width: 100%; padding-left:20px;background-color: #92d9e9; border:2px solid black;border-left:none;}
 
 /*Aside*/
 
- .aside {height: 600px; width: 100%;text-align: center;border:2px solid black; border-right:none;} 
+ .aside {height: 600px; width: 100%;text-align: center;border:2px solid black; border-right:none;background-color: #92d9e9;} 
 
  .aside p {color:black;}
 
@@ -53,6 +53,8 @@
 
  .aside_2 h3 {color:black;}
 
+ [class^="aside"] {background-color: #92d9e9;}
+
 /*ID*/
 
  #header_div {height: 100px;width:100px;}
@@ -68,9 +70,7 @@
  #menu:checked ~ .show {display: block;}
 
  /*Class*/
- 
- .important {color: rgb(240, 248,255)}
- 
+
  .Anakin {display: flex;max-width: 1500px; margin: 20px auto; align-items: flex-start;gap:5px;}
  
  .Anakin_1 {display: block;max-width: 1500px; margin: 20px auto; align-items: flex-start;gap: 10px;}
@@ -115,7 +115,22 @@
 
  .small {font-size:15px; color:white;}
 
-/* Codigos extras */
+ .s_1 {border:2px solid rgb(0,0,0);background-color:#ffffff;color:#ffffff}
+
+ .s_1 h1 {border:2px solid rgb(0,0,0);border-left:none;border-right:none;background-color:#8a598e;color:#ffffff}
+
+ .text {border:2px solid rgb(0,0,0);border-left:none;border-right:none;background-color:#8a598e;color:#ffffff}
+ 
+ .text_1 {border:2px solid rgb(0,0,0);border-left:none;border-radius:2px;background-color:#8a598e;color:#ffffff}
+
+ .products_curve {border:2px solid rgb(0,0,0);border-left:none;border-right:none;background-color: #d5b8d7; color:white}
+
+ .products_curve_1 {border:2px solid rgb(0,0,0);border-left:none;background-color: #d5b8d7; color:white}
+
+
+ .justify {display:flex; align-items:center;justify-content: center; }
+
+ /* Codigos extras */
 
  #navigate label:hover img {transform: scale(1.05);} 
  .image:hover {transform: scale(1.60)}

@@ -1,5 +1,3 @@
-let x = 0;
-
 const clicsRequeridos = 10;
 
 const urlDestino = "https://www.youtube.com/watch?v=xvFZjo5PgG0"; 
