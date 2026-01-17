@@ -127,8 +127,11 @@
 
  .products_curve_1 {border:2px solid rgb(0,0,0);border-left:none;background-color: #d5b8d7; color:white}
 
-
  .justify {display:flex; align-items:center;justify-content: center; }
+
+ .title_Y {background-color: #8a598e;border-radius: 10px ;color: #ffffff;margin-right: 10px;}
+
+ .No_points {list-style: none;}
 
  /* Codigos extras */
 
@@ -139,3 +142,5 @@
 
  nav ul {list-style: none; padding:0px;margin:0px; display:flex; justify-content: center;}
  nav ul li {margin: 0 25px;}
+
+ #page-working{display: flex; justify-content: center; align-items: center; height: 35vh}
